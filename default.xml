@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="novagen"
+	   fetch="https://github.com/Nova-Gen/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
@@ -35,7 +38,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="rootbox" revision="jb-mr1" >
+  <project path="build" name="novagen_build" remote="novagen" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="rootbox" name="buildscripts" remote="rootbox" revision="jb-mr1" >
@@ -94,6 +97,7 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="rootbox" revision="jb-mr1" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" remote="cm" revision="cm-10.1" />
+  <project path="device/bn/encore" name="novagen_device_bn_encore" remote="novagen" revision="cm-10.1" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="rootbox" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -311,7 +315,7 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="rootbox" revision="jb-mr1" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wlan" name="novagen_hardware_ti_wlan" remote="novagen" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
   <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="gh" revision="jellybean" />
@@ -324,6 +328,7 @@
   <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412" remote="rootbox" revision="jb-mr1" />	  	
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
+  <project path="kernel/bn/encore" name="novagen_kernel_bn_encore" remote="novagen" revision="encore-omap3-3" />
   <project path="libcore" name="UnicornButter/libcore" remote="gh" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -435,7 +440,7 @@
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
-  <project path="vendor/rootbox" name="vendor_rootbox" remote="rootbox" revision="jb-mr1" />
+  <project path="vendor/novagen" name="vendor_novagen" remote="novagen" revision="jb-mr1" />
   <project path="vendor/asus" name="vendor_asus" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-10.1" />
