@@ -306,7 +306,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="rootbox" revision="jb-mr1" />
   <project path="hardware/ti/wlan" name="novagen_hardware_ti_wlan" remote="novagen" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
@@ -432,6 +432,10 @@
   <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
 
   <project path="vendor/novagen" name="vendor_novagen" remote="novagen" revision="jb-mr1" >
     <copyfile src="scripts/build_novagen.sh" dest="build_novagen.sh" />
