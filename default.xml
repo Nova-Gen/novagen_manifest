@@ -34,6 +34,12 @@
   <remote  name="gh"
 	   fetch="https://github.com/" />
 
+  <remote  name="private-bitbucket"
+           fetch="ssh://git@bitbucket.com" />
+
+  <remote  name="private-github"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -454,4 +460,10 @@
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/bn" name="novagen_vendor_bn" remote="novagen" revision="jb-mr1" />
   <project path="novagen_manifest" name="novagen_manifest" remote="novagen" revision="jb-mr1" />
+
+  <!-- Motorola Atrix 4G (olympus) -->
+  <project name="CyanogenMod-Atrix/android_device_motorola_olympus" path="device/motorola/olympus" remote="private-bitbucket" revision="cm-10.1" />
+  <project name="CyanogenMod-Atrix/android_vendor_motorola_olympus" path="vendor/motorola/olympus" remote="private-bitbucket" revision="master" />
+  <project name="CyanogenMod-Atrix/android_kernel_motorola_olympus" path="kernel/motorola/olympus" remote="private-bitbucket" revision="master" />
+
 </manifest>
