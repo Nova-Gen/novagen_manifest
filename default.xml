@@ -35,7 +35,7 @@
 	   fetch="https://github.com/" />
 
   <remote  name="private-bitbucket"
-           fetch="ssh://git@bitbucket.com" />
+           fetch="ssh://git@bitbucket.org" />
 
   <remote  name="private-github"
            fetch="ssh://git@github.com" />
