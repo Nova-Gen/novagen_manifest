@@ -225,7 +225,7 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="external_openssh" remote="rootbox" revision="jb-mr1" />
   <project path="external/openssl" name="external_openssl" remote="rootbox" revision="jb-mr1" />
-  <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="gh" revision="jb-mr1" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="cm" revision="cm-10.1" />
   <project path="external/ping" name="UnicornButter/external_ping" remote="gh" revision="jb-mr1" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
