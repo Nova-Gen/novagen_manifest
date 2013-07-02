@@ -450,6 +450,7 @@
   <project path="vendor/novagen" name="vendor_novagen" remote="novagen" revision="jb-mr1" >
     <copyfile src="scripts/build_novagen.sh" dest="build_novagen.sh" />
   </project>
+  <project path="packages/apps/NovagenUpdated" name="novagen_packages_apps_NovagenUpdates" remote="novagen" revision="jb-mr1" />
   <project path="vendor/asus" name="vendor_asus" remote="rootbox" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-10.1" />
