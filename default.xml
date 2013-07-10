@@ -468,6 +468,6 @@
   <!-- Motorola Atrix 4G (olympus) -->
   <project path="device/motorola/olympus" name="novagen_device_motorola_olympus" remote="novagen" revision="jb-mr1" />
   <project path="vendor/motorola" name="novagen_vendor_motorola" remote="novagen" revision="jb-mr1" />
-  <project name="CyanogenMod-Atrix/android_kernel_motorola_olympus" path="kernel/motorola/olympus" remote="gh" revision="master" />
+  <project path="kernel/motorola/olympus" name="CyanogenMod-Atrix/android_kernel_motorola_olympus" remote="gh" revision="ics" />
 
 </manifest>
